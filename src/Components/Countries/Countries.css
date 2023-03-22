@@ -1,0 +1,20 @@
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.countries .country{
+    color: #fff;
+    background: #000f44;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+.countries .country img{
+    width: 150px;
+    height: 100px;
+}

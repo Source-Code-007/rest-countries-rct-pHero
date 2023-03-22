@@ -1,0 +1,25 @@
+nav{
+    background: #000f44;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+nav a{
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: bold;
+}
+nav .nav-left{
+    display: flex;
+    align-items: center;
+}
+nav .nav-right ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
