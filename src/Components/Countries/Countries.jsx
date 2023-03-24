@@ -24,10 +24,10 @@ const Country = (props) => {
     let { region, name, population, flags } = props.country
     document.querySelector('.loader').style.display = 'none' //The loader is hidden when the data is loaded
     return (
-        <div className='country'>
+        <div className='country space-y-2'>
             <img src={flags.png} alt="" />
-            <h2>Name: {name.common}</h2>
-            <h2>Region: {region}</h2>
+            <h2 className='font-bold text-2xl'>Name: {name.common}</h2>
+            <h2 className='font-bold text-2xl'>Region: {region}</h2>
             <h2>Population: {population}</h2>
         </div>
     );
